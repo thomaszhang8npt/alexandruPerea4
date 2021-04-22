@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
 		        
 		        HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
 		        try {
-
+        			//comment
 		            //this is the actual part that will call the webservice
 		            androidHttpTransport.call(SOAP_ACTION, envelope);        
 		        } catch (Exception e) {
