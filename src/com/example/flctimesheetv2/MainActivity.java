@@ -47,6 +47,7 @@ public class MainActivity extends Activity {
 		        try {
         			//comment
 		            //this is the actual part that will call the webservice
+		        	//compare
 		            androidHttpTransport.call(SOAP_ACTION, envelope);        
 		        } catch (Exception e) {
 		            e.printStackTrace(); 
