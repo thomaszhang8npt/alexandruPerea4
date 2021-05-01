@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 
 	private static String SOAP_ACTION = "http://ax2012r2a:8101/DynamicsAx/Services/FLCTimeSheetServiceGroup";
 
-    private static String NAMESPACE = "http://ax2012r2a:8101/DynamicsAx/Services";
+    private static String NAMESPACE = "http://ax2012r2a:8101/DynamicsAx/Services/";
     private static String METHOD_NAME = "insertIntoTimeSheet";
 
     private static String URL = "http://ax2012r2a:8101/DynamicsAx/Services/FLCTimeSheetServiceGroup?wsdl";
